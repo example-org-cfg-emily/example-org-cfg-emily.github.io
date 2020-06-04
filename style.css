@@ -1,3 +1,30 @@
-h1 {
-  color: red;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
+
+.item {
+  border: 1px solid lightgray;
+  box-shadow: 2px 2px 10px gray;
+  width: 18vw;
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.item:hover {
+  transform: scale(1.1);
+}
+
+img {
+  width: 100%;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-between;
+}
+
+.description {
+  text-align: center;
+  padding-top: 5px;
 }
